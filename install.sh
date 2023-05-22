@@ -122,7 +122,7 @@ fi
 if [ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]; then
 	let COUNTER++
 fi
-if [[ $(pyenv versions) == *"3.9.12"* ]]; then
+if [[ $(pyenv versions) == *"3.11.3"* ]]; then
 	let COUNTER++
 fi
 if [ -f $(which poetry) ]; then 
