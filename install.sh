@@ -79,7 +79,7 @@ else
 	sudo apt install fontconfig
 	mkdir ~/.fonts
 	cd ~/.fonts
-	wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.2.2/FiraCode.zip
+	wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.1/FiraCode.zip
 	unzip FiraCode.zip
 	fc-cache -f -v
 	echo "fontconfig installed"
