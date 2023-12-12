@@ -43,12 +43,12 @@ else
 	git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 fi
 
-if [[ $(pyenv versions) == *"3.11.4"* ]]; then
-	echo "Python version 3.11.4 already installed"
+if [[ $(pyenv versions) == *"3.12.1"* ]]; then
+	echo "Python version 3.12.1 already installed"
 else
-	pyenv install 3.11.4
+	pyenv install 3.12.1
 fi
-pyenv global 3.11.4
+pyenv global 3.12.1
 
 if [ -f $(which poetry) ]; then 
 	echo "Poetry already installed"
@@ -122,7 +122,7 @@ fi
 if [ -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]; then
 	let COUNTER++
 fi
-if [[ $(pyenv versions) == *"3.11.4"* ]]; then
+if [[ $(pyenv versions) == *"3.12.1"* ]]; then
 	let COUNTER++
 fi
 if [ -f $(which poetry) ]; then 
